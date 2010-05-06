@@ -19,6 +19,10 @@ compile '/css/*' do
   # nothing
 end
 
+compile '/images/*' do
+  # nothing
+end
+
 compile '*' do
   filter :erb
   layout 'default'
@@ -34,6 +38,10 @@ route '/css/*/' do
   item.identifier.chop + '.' + item[:extension]
 end
 
+route '/images/*/' do
+  # create the file name with extension
+  item.identifier.chop + '.' + item[:extension]
+end
 
 route '*' do
   item.identifier + 'index.html'
