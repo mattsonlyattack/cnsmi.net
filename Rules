@@ -10,11 +10,6 @@
 #   item, use the pattern "/about/*/"; "/about/*" will also select the parent,
 #   because "*" matches zero or more characters.
 
-# not using this single stylesheet thing
-compile '/stylesheet/' do
-  # don't filter or layout
-end
-
 compile '/css/*' do
   # nothing
 end
@@ -23,14 +18,17 @@ compile '/images/*' do
   # nothing
 end
 
+compile '/js/*' do
+  # nothing
+end
+
+compile '/docs/*' do
+  # nothing
+end
+
 compile '*' do
   filter :erb
   layout 'default'
-end
-
-# again with the single stylesheet thing
-route '/stylesheet/' do
-  '/style.css'
 end
 
 route '/css/*/' do
@@ -40,6 +38,14 @@ end
 
 route '/images/*/' do
   # create the file name with extension
+  item.identifier.chop + '.' + item[:extension]
+end
+
+route '/docs/*/' do
+  item.identifier.chop + '.' + item[:extension]
+end
+
+route '/js/*/' do
   item.identifier.chop + '.' + item[:extension]
 end
 
