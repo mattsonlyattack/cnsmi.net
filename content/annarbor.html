@@ -1,12 +1,13 @@
 --- 
 title: Ann Arbor Office
 ---
-
+	
 <!-- main -->
 <div id="main">
 
 	<div class="post">
 		<div class="right">
+			<h4>Directions to the Ann Arbor Office</h4>
 			<p><strong>From east side of ann Arbor:</strong> Take M-14 west to the downtown Ann Arbor Exit #3.  Follow Main Street south to Kingsley and turn right.  Follow Kingsley which turns left into 1st street.  
 			You will see the McKinley Office Building parking lot on the right almost immediately after turning onto First St. Park in the lot in any vistors spot.  Walk up the First Street side of the building until you come to the third door that has a sign "Dr. Ennis Berker" next to it.  
 			My office is the first one on the right after you enter the door.</p>
@@ -15,11 +16,34 @@ title: Ann Arbor Office
 			Walk up the First Street side (east side) of the building until you come to the third door that has a sign "Dr. Ennis Berker" next to it.  My office is the first one on the right after you enter the door.</p>
 		</div>			
 	</div>
-	
+
 	<div class="post">
 		<div class="right">
+			<h4>Pictures of the Office</h4>
+			<div id="gallery">
+				<a id="annarbor1" href="/images/annarbor_1.jpg" class="lightbox"><img id="thumb_annarbor1" src="/images/thumb_annarbor_1.jpg" alt""/></a>
+				<a id="annarbor2" href="/images/annarbor_2.jpg" class="lightbox"><img id="thumb_annarbor2" src="/images/thumb_annarbor_2.jpg" alt""/></a>			
+			</div>
+		</div>	
+	</div>
+
+	<div class="post">
+		<div class="right">
+			<h4>Map to the Office</h4>
 			<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=310+Miller+Road,+Ann+Arbor,+Michigan,+48103&amp;sll=37.0625,-95.677068&amp;sspn=66.53548,135.263672&amp;ie=UTF8&amp;hq=&amp;hnear=310+Miller+Ave,+Ann+Arbor,+Washtenaw,+Michigan+48104&amp;ll=42.283349,-83.750959&amp;spn=0.007763,0.016512&amp;z=17&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=310+Miller+Road,+Ann+Arbor,+Michigan,+48103&amp;sll=37.0625,-95.677068&amp;sspn=66.53548,135.263672&amp;ie=UTF8&amp;hq=&amp;hnear=310+Miller+Ave,+Ann+Arbor,+Washtenaw,+Michigan+48104&amp;ll=42.283349,-83.750959&amp;spn=0.007763,0.016512&amp;z=17" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 		</div>
 	</div>
-
+	
 </div>
+
+<script type="text/javascript">
+	$(function() {
+	   $('#gallery a').lightBox({
+		imageLoading: '/images/lightbox-ico-loading.gif',
+		imageBtnClose: '/images/lightbox-btn-close.gif',
+		imageBtnPrev: '/images/lightbox-btn-prev.gif',
+		imageBtnNext: '/images/lightbox-btn-next.gif',
+		imageBlank: '/images/lightbox-blank.gif',
+	   });
+	});
+</script>
