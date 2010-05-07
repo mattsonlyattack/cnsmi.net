@@ -20,7 +20,7 @@ img {
 }
 #header #nav ul,
 #header p#rss a {
-  text-shadow: 1px 2px 0 rgba(0,0,0,0.9);
+  /*text-shadow: 1px 2px 0 rgba(0,0,0,0.9);*/
 }
 #footer-outer,
 #footer-bottom {
