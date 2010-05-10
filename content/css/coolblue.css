@@ -7,6 +7,11 @@
 	Last Date Modified : March 10, 2010
  -------------------------------------------------------------------------------- */
 
+/*
+	Color Scheme: http://colorschemedesigner.com/
+	base color 00BA4B
+*/
+
 /* ------------------------------------------------------------------------------
     G E N E R A L
 --------------------------------------------------------------------------------- */
@@ -201,7 +206,7 @@ input.button {
 	margin: 0; padding: 0 5px 0 0;
 	font: bold 1em 'Trebuchet MS', 'Helvetica Neue', Arial, Sans-Serif;
 	letter-spacing: -4px;
-	color: #333;
+	color: #007931;
 	text-decoration: none;
 
   	/* change the values of top and left to adjust the position of the logo*/
@@ -243,7 +248,7 @@ input.button {
 	float:left;
 	margin: 0;
 	padding: 0 15px 29px 15px;
-	color: #baa7a7;
+	color: #63DD94;
 	font: bold 1.5em 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Sans-Serif;
 }
 #header #nav ul li a:hover, 
@@ -252,7 +257,7 @@ input.button {
 	color: #fff;
 }
 #header #nav ul li#current a {
-	background: transparent url(../images/current.jpg) no-repeat center bottom;
+	/*background: transparent url(../images/current.jpg) no-repeat center bottom;*/
 	color: #fff;
 }
 
