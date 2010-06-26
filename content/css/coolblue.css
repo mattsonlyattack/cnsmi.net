@@ -206,7 +206,7 @@ input.button {
 	margin: 0; padding: 0 5px 0 0;
 	font: bold 1em 'Trebuchet MS', 'Helvetica Neue', Arial, Sans-Serif;
 	letter-spacing: -4px;
-	color: #007931;
+	color: #FFF;
 	text-decoration: none;
 
   	/* change the values of top and left to adjust the position of the logo*/
@@ -254,11 +254,11 @@ input.button {
 #header #nav ul li a:hover, 
 #header #nav ul li a:active {
 	border: none;
-	color: #fff;
+	color: #000;
 }
 #header #nav ul li#current a {
 	/*background: transparent url(../images/current.jpg) no-repeat center bottom;*/
-	color: #fff;
+	color: #000;
 }
 
 /* content */
