@@ -217,14 +217,14 @@ input.button {
 	margin: 0; padding:  0 5px 0 0;
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Sans-Serif;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 19px;
 	line-height: 1.8em;
 	font-style: normal;
 	letter-spacing: -.5px;
 	color: #ddd;
-
+	
 	/* change the values of top and left to adjust the position */
-	top: 142px; left: 30px;
+	top: 142px; left: 210px;
 }
 
 /*  navigation  */
