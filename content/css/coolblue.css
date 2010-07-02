@@ -217,14 +217,14 @@ input.button {
 	margin: 0; padding:  0 5px 0 0;
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Sans-Serif;
 	font-weight: bold;
-	font-size: 23px;
+	font-size: 28px;
 	line-height: 1.8em;
 	font-style: normal;
 	letter-spacing: -.5px;
 	color: #ddd;
 	
 	/* change the values of top and left to adjust the position */
-	top: 142px; left: 210px;
+	top: 142px; left: 310px;
 }
 
 /*  navigation  */
@@ -298,6 +298,7 @@ input.button {
 	letter-spacing: -2.0px;
 	margin-bottom: 0;
 	padding-bottom: 0;
+	text-align: center;
 }
 #main h2 a { color: #333; }
 
